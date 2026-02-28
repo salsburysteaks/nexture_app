@@ -403,6 +403,7 @@ def readiness_breakdown(
     platform_fee_pct: float,
     returns_pct: float,
 ):
+    
     bench = CHANNEL_BENCHMARKS.get(sales_channel, {"target_net_margin_pct": 30, "excellent_net_margin_pct": 45})
     target_margin = float(bench["target_net_margin_pct"])
     excellent_margin = float(bench["excellent_net_margin_pct"])

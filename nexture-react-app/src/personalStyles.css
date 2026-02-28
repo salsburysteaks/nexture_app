@@ -1,0 +1,12 @@
+side-panel{
+    position: relative;
+    top: 0px;
+    background-color: rgb(38, 39, 48);
+    color: rgb(250, 250, 250);
+    color-scheme: dark;
+    z-index: 999991;
+    min-width: 200px;
+    max-width: 600px;
+    transform: none;
+    transition: transform 300ms, min-width 300ms, max-width 300ms;
+}
